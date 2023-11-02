@@ -23,5 +23,6 @@ def convert_image(img_list, image_folder, output_folder):
         img.save(f'{os.getcwd()}\\{output_folder}\\{clean_name}.png', 'png')
 
 
+
 if __name__ == '__main__':
     main()
